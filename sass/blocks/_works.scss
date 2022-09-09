@@ -1,0 +1,161 @@
+.works__item:nth-child(1) {
+  display: flex;
+  margin: 15px 0px;
+  margin-top: 30px;
+}
+
+.worls__mini_heading {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243D;
+}
+
+.works__item:nth-child(2) {
+  display: flex;
+  margin: 15px 0px;
+  margin-top: 30px;
+  margin-left: 200px;
+}
+
+.works__item:nth-child(3) {
+  display: flex;
+  margin: 15px 0px;
+  margin-top: 30px;
+  margin-left: 400px;
+}
+
+.works__item:nth-child(4) {
+  display: flex;
+  margin: 15px 0px;
+  margin-top: 30px;
+  margin-left: 550px;
+}
+
+.works__item_inner {
+  width: 100%;
+  margin-left: 15px;
+}
+
+.works__item_inner>h4 {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  color: #21243D;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.works__data {
+  background-color: #21243D;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.works__item_inner>p {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243D;
+}
+
+.works__heading {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 60px;
+  color: #21243D;
+
+}
+
+@media (max-width: 1050px) {
+  .works__item:nth-child(1) {
+    display: flex;
+    margin: 15px 0px;
+    margin-top: 30px;
+  }
+
+
+  .works__item:nth-child(2) {
+    display: flex;
+    margin: 15px 0px;
+    margin-top: 30px;
+  }
+
+  .works__item:nth-child(3) {
+    display: flex;
+    margin: 15px 0px;
+    margin-top: 30px;
+  }
+
+  .works__item:nth-child(4) {
+    display: flex;
+    margin: 15px 0px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .works__item:nth-child(1) {
+    width: 160px;
+    display: block;
+    margin: 30px auto;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+
+  .works__item:nth-child(2) {
+    width: 160px;
+    display: block;
+    margin: 30px auto;
+  }
+
+  .works__item:nth-child(3) {
+    width: 160px;
+    display: block;
+    margin: 30px auto;
+  }
+
+  .works__item:nth-child(4) {
+    width: 160px;
+    display: block;
+    margin: 30px auto;
+  }
+
+  .works__item>img:nth-child(1) {
+    width: 160px;
+    display: block;
+    margin: 0px;
+  }
+
+
+  .works__item>img:nth-child(2) {
+    width: 160px;
+    display: block;
+    margin: 0px;
+  }
+
+  .works__item>img:nth-child(3) {
+    width: 160px;
+    display: block;
+    margin: 0px;
+  }
+
+  .works__item>img:nth-child(3) {
+    width: 160px;
+    display: block;
+    margin: 0px;
+  }
+}

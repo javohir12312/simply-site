@@ -1,0 +1,98 @@
+.design{
+  padding: 48px 0 27px;
+}
+
+.design__title-box{
+  width: 100%;
+  max-width: 506px;
+  margin-bottom: 30px;
+}
+
+.design__title{
+  margin: 0;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 50px;
+  color: #21243D;
+}
+
+.design__info{
+  margin: 0 0 23px;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #21243D;
+}
+
+.design__desc{
+  display: inline-block;
+  padding: 0 10px;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 35px;
+  color: #FFFFFF;
+  background-color: #FF7C7C;
+  border-radius: 16px;
+}
+
+.design__text-box{
+  width: 100%;
+  max-width: 601px;
+  margin-bottom: 46px;
+}
+
+.design__text{
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.design__img{
+  margin-bottom: 54px;
+}
+
+.design__subject{
+  margin: 0;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 60px;
+  color: #21243D;
+}
+
+.design__subject-two{
+  margin: 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 60px;
+  color: #21243D;
+}
+
+.design__img-two{
+  margin-bottom: 27px;
+}
+
+.design__img-there{
+  margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+  .design__box>img{
+    width: 500px;
+  }
+}
+
+@media (max-width: 550px) {
+  .design__box>img{
+    width: 280px;
+    height: 200px;
+    margin: 0 auto;
+  }
+}
